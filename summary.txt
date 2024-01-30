@@ -1,0 +1,15 @@
+1. OpenAI, a U.S.-based AI research organization, was founded in December 2015 with the goal of developing safe and beneficial artificial general intelligence. It consists of the non-profit OpenAI, Inc. and its for-profit subsidiary OpenAI Global, LLC.
+2. Microsoft made significant investments in OpenAI, providing $1 billion in 2019 and $10 billion in 2023, including compute resources on Microsoft's Azure cloud service.
+3. On November 17, 2023, Sam Altman was fired by the OpenAI board, but later returned as CEO. Greg Brockman was also removed as chairman and resigned as president, but returned to the company. Most of the board members resigned, and Bret Taylor became the new chairman.
+4. OpenAI developed GPT-3, a large language model released in 2020 with 175 billion parameters. GPT-4 was released in March 2023.
+5. OpenAI launched ChatGPT, a chatbot, on November 30, 2022, and gained over 100 million users by January 2023. It contributed to OpenAI's valuation of $29 billion.
+6. OpenAI operates ChatGPT as a freemium model, with a free tier accessing the GPT-3.5-based version and paid subscribers getting access to the GPT-4-based version and newer features.
+7. Concerns have been raised about ChatGPT's potential to displace human intelligence, enable plagiarism, and fuel misinformation.
+8. OpenAI has developed text-to-image models called DALL·E, DALL·E 2, and DALL·E 3.
+9. Mira Murati is the Chief Technology Officer of OpenAI since 2018 and briefly served as the interim CEO in November 2023.
+10. Emmett Shear, former CEO of Twitch, served as the interim CEO of OpenAI in November 2023 but was later replaced by Sam Altman.
+11. Whisper is an open-source speech recognition and transcription model developed by OpenAI. It was released in September 2022 and has been updated to Whisper V2 and Whisper V3.
+12. Gemini is a multimodal language model developed by Google DeepMind, announced in December 2023 as a competitor to OpenAI's GPT-4.
+13. GPT-2 is a large language model developed by OpenAI, released in November 2019 with a generative pre-trained transformer architecture.
+14. Auto-GPT is an open-source AI agent developed by Toran Bruce Richards, utilizing OpenAI's GPT-4 or GPT-3.5 APIs to automate tasks in various domains.
+15. Helen Toner, an Australian researcher, served as a board member of OpenAI until November 2023 and published a report on artificial intelligence.

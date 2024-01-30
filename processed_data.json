@@ -1,0 +1,652 @@
+[
+    {
+        "text": "1[ENT0:CARDINAL]. OpenAI, a U.S.-based AI[ENT1:ORG] research organization, was founded in December 2015[ENT2:DATE] with the goal of developing safe and beneficial artificial general intelligence.",
+        "entities": [
+            [
+                "1",
+                "CARDINAL"
+            ],
+            [
+                "AI",
+                "ORG"
+            ],
+            [
+                "December 2015",
+                "DATE"
+            ]
+        ],
+        "relations": [
+            [
+                "1",
+                "ORG",
+                "AI"
+            ],
+            [
+                "1",
+                "DATE",
+                "December 2015"
+            ]
+        ]
+    },
+    {
+        "text": "It consists of the non-profit OpenAI, Inc.[ENT0:ORG] and its for-profit subsidiary OpenAI Global, LLC[ENT1:ORG].",
+        "entities": [
+            [
+                "OpenAI, Inc.",
+                "ORG"
+            ],
+            [
+                "OpenAI Global, LLC",
+                "ORG"
+            ]
+        ],
+        "relations": [
+            [
+                "OpenAI, Inc.",
+                "subsidiary of",
+                "OpenAI Global, LLC"
+            ]
+        ]
+    },
+    {
+        "text": "2[ENT0:CARDINAL].",
+        "entities": [
+            [
+                "2",
+                "CARDINAL"
+            ]
+        ],
+        "relations": []
+    },
+    {
+        "text": "Microsoft[ENT0:ORG] made significant investments in OpenAI[ENT1:ORG], providing $1 billion[ENT2:MONEY] in 2019[ENT3:DATE] and $10 billion[ENT4:MONEY] in 2023[ENT5:DATE], including compute resources on Microsoft[ENT6:ORG]'s Azure[ENT7:ORG] cloud service.",
+        "entities": [
+            [
+                "Microsoft",
+                "ORG"
+            ],
+            [
+                "OpenAI",
+                "ORG"
+            ],
+            [
+                "$1 billion",
+                "MONEY"
+            ],
+            [
+                "2019",
+                "DATE"
+            ],
+            [
+                "$10 billion",
+                "MONEY"
+            ],
+            [
+                "2023",
+                "DATE"
+            ],
+            [
+                "Microsoft",
+                "ORG"
+            ],
+            [
+                "Azure",
+                "ORG"
+            ]
+        ],
+        "relations": [
+            [
+                "Microsoft",
+                "investment",
+                "OpenAI"
+            ],
+            [
+                "Microsoft",
+                "resource",
+                "Microsoft"
+            ]
+        ]
+    },
+    {
+        "text": "3[ENT0:CARDINAL].",
+        "entities": [
+            [
+                "3",
+                "CARDINAL"
+            ]
+        ],
+        "relations": []
+    },
+    {
+        "text": "On November 17, 2023[ENT0:DATE], Sam Altman[ENT1:PERSON] was fired by the OpenAI[ENT2:ORG] board, but later returned as CEO.",
+        "entities": [
+            [
+                "November 17, 2023",
+                "DATE"
+            ],
+            [
+                "Sam Altman",
+                "PERSON"
+            ],
+            [
+                "OpenAI",
+                "ORG"
+            ]
+        ],
+        "relations": [
+            [
+                "Sam Altman",
+                "EMPLOYEE",
+                "OpenAI"
+            ]
+        ]
+    },
+    {
+        "text": "Greg Brockman[ENT0:PERSON] was also removed as chairman and resigned as president, but returned to the company.",
+        "entities": [
+            [
+                "Greg Brockman",
+                "PERSON"
+            ]
+        ],
+        "relations": [
+            [
+                "Greg Brockman",
+                "removed_as_chairman",
+                "Greg Brockman"
+            ],
+            [
+                "Greg Brockman",
+                "resigned_as_president",
+                "Greg Brockman"
+            ]
+        ]
+    },
+    {
+        "text": "Most of the board members resigned, and Bret Taylor[ENT0:PERSON] became the new chairman.",
+        "entities": [
+            [
+                "Bret Taylor",
+                "PERSON"
+            ]
+        ],
+        "relations": [
+            [
+                "Bret Taylor",
+                "new chairman",
+                "Bret Taylor"
+            ]
+        ]
+    },
+    {
+        "text": "4[ENT0:CARDINAL].",
+        "entities": [
+            [
+                "4",
+                "CARDINAL"
+            ]
+        ],
+        "relations": []
+    },
+    {
+        "text": "OpenAI developed GPT-3, a large language model released in 2020[ENT0:DATE] with 175 billion[ENT1:MONEY] parameters.",
+        "entities": [
+            [
+                "2020",
+                "DATE"
+            ],
+            [
+                "175 billion",
+                "MONEY"
+            ]
+        ],
+        "relations": [
+            [
+                "2020",
+                "AMOUNT",
+                "175 billion"
+            ]
+        ]
+    },
+    {
+        "text": "GPT-4 was released in March 2023[ENT0:DATE].",
+        "entities": [
+            [
+                "March 2023",
+                "DATE"
+            ]
+        ],
+        "relations": []
+    },
+    {
+        "text": "5[ENT0:CARDINAL].",
+        "entities": [
+            [
+                "5",
+                "CARDINAL"
+            ]
+        ],
+        "relations": []
+    },
+    {
+        "text": "OpenAI launched ChatGPT[ENT0:ORG], a chatbot, on November 30, 2022[ENT1:DATE], and gained over 100 million[ENT2:CARDINAL] users by January 2023[ENT3:DATE].",
+        "entities": [
+            [
+                "ChatGPT",
+                "ORG"
+            ],
+            [
+                "November 30, 2022",
+                "DATE"
+            ],
+            [
+                "over 100 million",
+                "CARDINAL"
+            ],
+            [
+                "January 2023",
+                "DATE"
+            ]
+        ],
+        "relations": [
+            [
+                "ChatGPT",
+                "launch_date",
+                "November 30, 2022"
+            ],
+            [
+                "November 30, 2022",
+                "user_count",
+                "over 100 million"
+            ],
+            [
+                "January 2023",
+                "user_count",
+                "over 100 million"
+            ]
+        ]
+    },
+    {
+        "text": "It contributed to OpenAI[ENT0:ORG]'s valuation of $29 billion[ENT1:MONEY].",
+        "entities": [
+            [
+                "OpenAI",
+                "ORG"
+            ],
+            [
+                "$29 billion",
+                "MONEY"
+            ]
+        ],
+        "relations": [
+            [
+                "OpenAI",
+                "contributed to valuation",
+                "$29 billion"
+            ]
+        ]
+    },
+    {
+        "text": "6[ENT0:CARDINAL].",
+        "entities": [
+            [
+                "6",
+                "CARDINAL"
+            ]
+        ],
+        "relations": []
+    },
+    {
+        "text": "OpenAI operates ChatGPT as a freemium model, with a free tier accessing the GPT-3.5-based version and paid subscribers getting access to the GPT-4-based version and newer features.",
+        "entities": [],
+        "relations": []
+    },
+    {
+        "text": "7[ENT0:CARDINAL].",
+        "entities": [
+            [
+                "7",
+                "CARDINAL"
+            ]
+        ],
+        "relations": []
+    },
+    {
+        "text": "Concerns have been raised about ChatGPT[ENT0:ORG]'s potential to displace human intelligence, enable plagiarism, and fuel misinformation.",
+        "entities": [
+            [
+                "ChatGPT",
+                "ORG"
+            ]
+        ],
+        "relations": [
+            [
+                "ChatGPT",
+                "displace human intelligence",
+                "ChatGPT"
+            ],
+            [
+                "ChatGPT",
+                "enable plagiarism",
+                "ChatGPT"
+            ],
+            [
+                "ChatGPT",
+                "fuel misinformation",
+                "ChatGPT"
+            ]
+        ]
+    },
+    {
+        "text": "8[ENT0:CARDINAL].",
+        "entities": [
+            [
+                "8",
+                "CARDINAL"
+            ]
+        ],
+        "relations": []
+    },
+    {
+        "text": "OpenAI has developed text-to-image models called DALL\u00b7E, DALL\u00b7E 2[ENT0:CARDINAL], and DALL\u00b7E 3[ENT1:CARDINAL].\n9[ENT2:CARDINAL].",
+        "entities": [
+            [
+                "2",
+                "CARDINAL"
+            ],
+            [
+                "3",
+                "CARDINAL"
+            ],
+            [
+                "9",
+                "CARDINAL"
+            ]
+        ],
+        "relations": [
+            [
+                "2",
+                "HAS_CARDINAL_NUMBER",
+                "9"
+            ],
+            [
+                "3",
+                "HAS_CARDINAL_NUMBER",
+                "9"
+            ]
+        ]
+    },
+    {
+        "text": "Mira Murati[ENT0:PERSON] is the Chief Technology Officer of OpenAI since 2018[ENT1:DATE] and briefly served as the interim CEO in November 2023[ENT2:DATE].",
+        "entities": [
+            [
+                "Mira Murati",
+                "PERSON"
+            ],
+            [
+                "2018",
+                "DATE"
+            ],
+            [
+                "November 2023",
+                "DATE"
+            ]
+        ],
+        "relations": [
+            [
+                "Mira Murati",
+                "is the Chief Technology Officer of",
+                "2018"
+            ]
+        ]
+    },
+    {
+        "text": "10[ENT0:CARDINAL].",
+        "entities": [
+            [
+                "10",
+                "CARDINAL"
+            ]
+        ],
+        "relations": []
+    },
+    {
+        "text": "Emmett Shear[ENT0:PERSON], former CEO of Twitch[ENT1:ORG], served as the interim CEO of OpenAI[ENT2:ORG] in November 2023[ENT3:DATE] but was later replaced by Sam Altman[ENT4:PERSON].\n11[ENT5:CARDINAL].",
+        "entities": [
+            [
+                "Emmett Shear",
+                "PERSON"
+            ],
+            [
+                "Twitch",
+                "ORG"
+            ],
+            [
+                "OpenAI",
+                "ORG"
+            ],
+            [
+                "November 2023",
+                "DATE"
+            ],
+            [
+                "Sam Altman",
+                "PERSON"
+            ],
+            [
+                "11",
+                "CARDINAL"
+            ]
+        ],
+        "relations": [
+            [
+                "Emmett Shear",
+                "former CEO of",
+                "Twitch"
+            ],
+            [
+                "Emmett Shear",
+                "interim CEO of",
+                "OpenAI"
+            ],
+            [
+                "OpenAI",
+                "in November 2023",
+                "November 2023"
+            ],
+            [
+                "OpenAI",
+                "replaced by",
+                "Sam Altman"
+            ]
+        ]
+    },
+    {
+        "text": "Whisper is an open-source speech recognition and transcription model developed by OpenAI.",
+        "entities": [],
+        "relations": []
+    },
+    {
+        "text": "It was released in September 2022[ENT0:DATE] and has been updated to Whisper V2[ENT1:PERSON] and Whisper V3[ENT2:PRODUCT].",
+        "entities": [
+            [
+                "September 2022",
+                "DATE"
+            ],
+            [
+                "Whisper V2",
+                "PERSON"
+            ],
+            [
+                "Whisper V3",
+                "PRODUCT"
+            ]
+        ],
+        "relations": [
+            [
+                "Whisper V2",
+                "RELEASE",
+                "September 2022"
+            ]
+        ]
+    },
+    {
+        "text": "12[ENT0:CARDINAL].",
+        "entities": [
+            [
+                "12",
+                "CARDINAL"
+            ]
+        ],
+        "relations": []
+    },
+    {
+        "text": "Gemini[ENT0:ORG] is a multimodal language model developed by Google DeepMind[ENT1:ORG], announced in December 2023[ENT2:DATE] as a competitor to OpenAI[ENT3:ORG]'s GPT-4.\n13[ENT4:CARDINAL].",
+        "entities": [
+            [
+                "Gemini",
+                "ORG"
+            ],
+            [
+                "Google DeepMind",
+                "ORG"
+            ],
+            [
+                "December 2023",
+                "DATE"
+            ],
+            [
+                "OpenAI",
+                "ORG"
+            ],
+            [
+                "13",
+                "CARDINAL"
+            ]
+        ],
+        "relations": [
+            [
+                "Gemini",
+                "DEVELOPER",
+                "Google DeepMind"
+            ],
+            [
+                "Google DeepMind",
+                "ANNOUNCEMENT DATE",
+                "December 2023"
+            ],
+            [
+                "Gemini",
+                "COMPETITOR",
+                "OpenAI"
+            ]
+        ]
+    },
+    {
+        "text": "GPT-2 is a large language model developed by OpenAI[ENT0:ORG], released in November 2019[ENT1:DATE] with a generative pre-trained transformer architecture.",
+        "entities": [
+            [
+                "OpenAI",
+                "ORG"
+            ],
+            [
+                "November 2019",
+                "DATE"
+            ]
+        ],
+        "relations": [
+            [
+                "OpenAI",
+                "RELEASED_ON",
+                "November 2019"
+            ]
+        ]
+    },
+    {
+        "text": "14[ENT0:CARDINAL].",
+        "entities": [
+            [
+                "14",
+                "CARDINAL"
+            ]
+        ],
+        "relations": []
+    },
+    {
+        "text": "Auto-GPT is an open-source AI[ENT0:ORG] agent developed by Toran Bruce Richards[ENT1:PERSON], utilizing OpenAI[ENT2:ORG]'s GPT-4 or GPT-3.5 APIs to automate tasks in various domains.",
+        "entities": [
+            [
+                "AI",
+                "ORG"
+            ],
+            [
+                "Bruce Richards",
+                "PERSON"
+            ],
+            [
+                "OpenAI",
+                "ORG"
+            ]
+        ],
+        "relations": [
+            [
+                "AI",
+                "developed by",
+                "Bruce Richards"
+            ],
+            [
+                "AI",
+                "utilizing",
+                "OpenAI"
+            ]
+        ]
+    },
+    {
+        "text": "15[ENT0:CARDINAL].",
+        "entities": [
+            [
+                "15",
+                "CARDINAL"
+            ]
+        ],
+        "relations": []
+    },
+    {
+        "text": "Helen Toner[ENT0:PERSON], an Australian[ENT1:NORP] researcher, served as a board member of OpenAI[ENT2:ORG] until November 2023[ENT3:DATE] and published a report on artificial intelligence.",
+        "entities": [
+            [
+                "Helen Toner",
+                "PERSON"
+            ],
+            [
+                "Australian",
+                "NORP"
+            ],
+            [
+                "OpenAI",
+                "ORG"
+            ],
+            [
+                "November 2023",
+                "DATE"
+            ]
+        ],
+        "relations": [
+            [
+                "Helen Toner",
+                "nationality",
+                "Australian"
+            ],
+            [
+                "Helen Toner",
+                "affiliation",
+                "OpenAI"
+            ],
+            [
+                "Helen Toner",
+                "employment.until",
+                "November 2023"
+            ]
+        ]
+    }
+]
