@@ -16,4 +16,4 @@ Also you can implement knowledge graph in RAG to build stronger retriever system
 I hope you have great time creating your own knowledge graph for better use .
 
 * Sample Knowledge graph I created
-![](Images\day186 knowledge_graph.png)
+![](https://github.com/Utshav-paudel/Text2Knowledgegraph_funnel/tree/84aece58ec85359175c0c7fc6b5bf0d8dd06f1e0/Images)
